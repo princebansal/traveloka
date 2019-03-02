@@ -1,6 +1,7 @@
 import React from "react";
 import placeMapping from "./testData.js";
 import LocationSelect from "./LocationSelect.js";
+import { createBrowserHistory } from "history";
 import {
   Grid,
   Paper,
@@ -84,6 +85,7 @@ class Main extends React.Component {
     if (this.state.departure && this.state.arrival && this.state.selectedDate) {
       if (this.state.departure != "None" && this.state.arrival != "None") {
         window.location.replace("/flights");
+        createBrowserHistory().push("/");
         return;
       }
     }
