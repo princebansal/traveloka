@@ -15,10 +15,6 @@ const styles = theme => ({
 });
 
 class FlightListMain extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { classes } = this.props;
     return (

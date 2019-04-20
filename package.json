@@ -25,8 +25,14 @@
     "enzyme": "*",
     "enzyme-adapter-react-16": "^1.10.0",
     "jest": "*",
+    "react-redux": "^6.0.1",
     "react-test-renderer": "^16.8.3",
-    "react-testing-library": "^6.0.0"
+    "react-testing-library": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
